@@ -1,0 +1,101 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	font-size: 30px;
+	color:white;
+}
+
+main {
+	width: 75;
+	margin: 50px auto;
+	border: 1px;
+}
+
+main div {
+	float: left;
+}
+
+.size {
+	margin: 10px;
+	width: 32%;
+	height: 200px;
+}
+
+.div1 {
+	background-color: red;
+}
+
+.div2 {
+	background-color: orange;
+}
+
+.div3 {
+	background-color: green;
+}
+
+.div3  td {
+	border: 2px solid green;
+	background: lightgreen;
+}
+
+.div3 tr, td {
+	height: auto;
+	width: 239px;
+}
+
+.div4 {
+	background-color: yellow;
+}
+
+.layout {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 05px;
+}
+
+.div4 div {
+	height: 38px;
+	margin-left: 2px;
+	margin-right: 2px;
+	width:153px;
+}
+
+.div5, .four_one {
+	background: #9B59B6;
+}
+
+.four_two {
+	margin-top: 28px;
+	background: #C39BD3;
+}
+
+.four_three {
+	margin-top: 53px;
+}
+
+.div6 {
+	background: blue;
+}
+
+.div7 {
+	background: pink;
+}
+
+.div8, .four_three {
+	background: navy;
+}
+
+.div9 {
+	background: brown;
+}
+.div9 td {
+	background: #EC7063;
+	border: 2px solid brown;
+}
